@@ -19,9 +19,25 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "assets/plugins/bootstrap/css/bootstrap.min.css",
+        "assets/plugins/simple-line-icons/simple-line-icons.css",
+        "assets/plugins/font-awesome/css/font-awesome.min.css",
+        "assets/plugins/pace/pace.css",
+        "assets/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css",
+        "assets/plugins/nano-scroll/nanoscroller.css",
+        "assets/plugins/metisMenu/metisMenu.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/plugins/jquery/dist/jquery.min.js",
+        "assets/plugins/bootstrap/js/bootstrap.min.js",
+        "assets/plugins/pace/pace.min.js",
+        "assets/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js",
+        "assets/plugins/slimscroll/jquery.slimscroll.min.js",
+        "assets/plugins/nano-scroll/jquery.nanoscroller.min.js",
+        "assets/plugins/metisMenu/metisMenu.min.js",
+        "assets/js/float-custom.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
